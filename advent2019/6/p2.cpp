@@ -15,28 +15,6 @@ using namespace std;
 
 unordered_map<string, unordered_set<string>> info;
 
-// One DFS approach
-
-int orbits = 0;
-
-void dfs(string currPos, int currDepth){
-    if(info.find(currPos) == info.end()){
-        // Info does not contain the currPos
-        orbits += currDepth;
-        return;
-    }
-
-    // Info contains currPos
-    orbits += currDepth;
-
-    for(string str : info[currPos]){
-        dfs(str, currDepth + 1);
-    }
-
-    return;
-
-}
-
 int main()
 {
 
@@ -73,9 +51,6 @@ int main()
     }
 
     // Info array is now filled correctly
-    dfs("COM", 0);
-
-    cout << "Number of direct and indirect orbits: " << orbits << endline;
 	
     fin.close();
 
