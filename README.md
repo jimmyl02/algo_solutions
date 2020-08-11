@@ -1,6 +1,4 @@
 # algo_solutions
 A repository with my past programming solutions
 
-Current solutions list:
-- [Advent of Code 2019](https://adventofcode.com/2019/)
-- [Google Code Jam 2020 Qualifiers](https://codingcompetitions.withgoogle.com/codejam)
+The competitions folder has my solutions from past competitions, view the readme in the folder for more details.

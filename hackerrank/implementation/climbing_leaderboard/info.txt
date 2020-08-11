@@ -1,0 +1,4 @@
+Problem Name: Climbing the Leaderboard
+URL: https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+Description: Given a scoreboard, determine placement with large limits
+Notes: There were large limits on N and M. Because we can do ~4e+8 operations, we know that our solution must be around O(N). I precomputed the placements array then travered the leaderboard and alice arrays in opposite directions.

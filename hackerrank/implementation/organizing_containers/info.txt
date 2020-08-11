@@ -1,0 +1,4 @@
+Problem Name: Organizing containers of balls
+URL: https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
+Description: There is a matrix of containers and how many balls are in them. Determine if it is possible to move all balls of one type into one container with swaps
+Notes: Realize that the condition is only possible if the number of balls in containers initially is the same as the number of balls per type
